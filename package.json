@@ -1,0 +1,12 @@
+{
+  "name": "bharatstore",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Complete Indian e-commerce store – React + Express + Razorpay",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "db:setup": "cd backend && npm run db:setup"
+  }
+}
